@@ -2,7 +2,6 @@
 """
 Created on Wed Jun 17 20:11:57 2020
 
-@author: Aman
 """
 
 from ortools.sat.python import cp_model
@@ -84,4 +83,5 @@ for i in range(3):
     print(cur_pos)
 
         
+
         

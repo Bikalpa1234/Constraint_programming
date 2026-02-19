@@ -2,8 +2,6 @@
 """
 Created on Mon Sep 14 23:18:29 2020
 
-@author: Aman
-"""
 
 import numpy as np
 from itertools import product
@@ -85,4 +83,5 @@ def four(n):
     pro.addConstraint(is_prime, 'a')
     pro.addConstraint(lambda x: n%x==0,'a')
     sol=pro.getSolutions()
+
     return max([x['a'] for x in sol])

@@ -2,7 +2,6 @@
 """
 Created on Wed May 20 19:48:10 2020
 
-@author: Aman
 """
 
 from ortools.sat.python.cp_model import*
@@ -160,4 +159,5 @@ def six():
     
         
     
+
 

@@ -2,8 +2,7 @@
 """
 Created on Fri Sep 18 13:04:35 2020
 
-@author: Aman
-"""
+
 
 import numpy as np
 from itertools import product
@@ -131,3 +130,4 @@ def calcdoku():
 
     sol=pro.getSolutions()
     return sol
+

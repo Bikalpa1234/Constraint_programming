@@ -2,7 +2,6 @@
 """
 Created on Wed Sep 16 19:58:57 2020
 
-@author: Aman
 """
 
 import numpy as np
@@ -179,6 +178,7 @@ def mix():
     solver=cp_model.CpSolver()
     status=solver.SearchForAllSolutions(model, sol_printer)
     return sol_printer.all_sol
+
 
 
 one(5)
